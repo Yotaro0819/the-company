@@ -1,0 +1,10 @@
+画像を一度ブラウザのtmpフォルダに保存する。
+tmp_nameはMAMPの中に保存されており、それをブラウザに送った後、ブラウザ側で作成されているtmpフォルダに移動
+move_uploaded_fileにより、そのデータを$destinationに送ることができる。
+
+tmp_photo(tmp_name) -> brawser -> tmp_folder 
+
+=> move_upload_file($tmp_name, $detination)
+
+tmp_photo -> $destination
+
